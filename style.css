@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: fontM;
+    src: url(/Fontes/megadeth/Megadeth.ttf);
+}
+
+body {
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/908/627/desktop-wallpaper-megadeth-p-1680%C3%971050-megadeth-megadeth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-left: 30px ;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    height: 100vh;
+}
+
+h1 {
+    margin-right: 70%;
+    color: #d39000;
+    text-shadow: #094ac2 2px 4px 4px;
+    font-family: fontM;
+    font-size: 60px;
+
+}
+
+#calculator {
+    max-width: 360px;
+    background-color: #16218a;
+    border-radius: 13px;
+    padding: 18px;
+    box-shadow: 7px 7px#0b1042;
+}
+
+#display {
+    width: 100%;
+    height: 60px;
+    font-size: 22px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 3px;
+    color: #d39000;
+    background: #000000;
+    border: none;
+    box-sizing: border-box;
+}
+
+button {
+    font-family: fontM;
+    text-shadow: 3px 5px 4px#1b2bb4;
+    width: calc(25% - 12px);
+    height: 50px;
+    font-size: 22px;
+    margin: 10px 5px;
+    border: none;
+    float: left;
+    background-color: #0e1555;
+    color: #fff;
+    box-shadow: 2px 3px#0a0f3a;
+}
+
+.operator {
+    color: #d39000;
+    background-color: #000638;
+}
+
+#ac {
+    color: ;
+}
+
+.equal {
+    width: calc(50% - 12px);
+    background-color: #384b8b;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    transform: ;
+    box-shadow: 1px 2px #1b2bb4;
+}
+
+img {
+    position: absolute;
+    left: 52.8em;
+    top: 30%;
+    animation: girar 5s infinite ;
+}
+
+@keyframes girar {
+
+    0% {
+        transform: scaleX(1);
+    }
+
+    50%{
+        transform: rotate(-360deg);
+    }
+}
